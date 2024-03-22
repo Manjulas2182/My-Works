@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <form action="#" method="post" >
+    <table>
+       
+        <tbody>
+            <tr>
+                <td><label for="user_name">FullName:</label></td>
+                <td>
+                    
+                    <input type="text" name="user_first_name" id="user_name" placeholder="Enter username" autofocus required>(max 20 char a-z and A-Z)</input>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td><label for="user_last_name">LastName:</label></td>
+                <td >
+                    
+                    <input type="text" name="user_lastname" id="user_last_name" placeholder="enter ur last name">(max 20 char a-z and A-Z)
+                </td>
+            </tr>
+  
+            
+            <tr>
+            
+                <td><label for="dob">Date of Birth:</label></td>
+            <td>
+                <select id="dob" name="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                    
+                </select>
+                <select>
+                    <option value="month">Jan</option>
+                    <option value="month">Feb</option>
+                    <option value="month">Mar</option>
+                    <option value="month">Apr</option>
+                    <option value="month">May</option>
+                    <option value="month">Jun</option>
+                    <option value="month">Jul</option>
+                    <option value="month">Aug</option>
+                    <option value="month">Sep</option>
+                    <option value="month">Oct</option>
+                    <option value="month">Nov</option>
+                    <option value="month">Dec</option>
+                </select>
+                <select>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                </select>
+            </td>
+            </tr>
+
+            
+            <tr>
+                
+                <td><label for="user_gen">GENDER:</label></td>
+                <td>
+                    
+                    <input type="radio" name="user_male" id="user_gen" value="Male">Male
+                    <input type="radio" name="user_female" id="user_gen" value="Female">Female</td>
+
+                
+            </tr>
+
+            <tr>
+                
+            <td> <label for="user_email">EMAIL ID:</label></td>
+            <td>
+               
+                <input type="email" name="user_contact_email" id="user_email">
+            </td>
+            </tr>
+
+            <tr>
+                <td>MOBILE NO:</td>
+                <td><input type="tel" name="" id="" pattern="{o-9}{10}"></td>
+            </tr>
+
+            <tr>
+                <td>ADDRESS:</td>
+                <td><textarea name="" id="" cols="40" rows="5"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="user_city">CITY</label></td>
+                <td><input type="text" name="" id="user_city">(max 20 char a-z and A-Z)</td>
+            </tr>
+
+            <tr>
+                <td><label for="user_pincode">PIN CODE</label></td>
+                <td><input type="number" name="" id="user_pincode">(6 digit number)</td>
+            </tr>
+
+            <tr>
+                <td><label for="user_state">STATE</label></td>
+                <td><input type="text" name="" id="user_state"></td>
+            </tr>
+
+            <tr>
+                <td><label for="user_country">COUNTRY</label></td>
+                <td><input type="text" name="" id="user_country"></td>
+            </tr>
+
+            <tr>
+                <td rowspan="2"><label for="user_hobbies">HOBBIES</label></td>
+                <td><input type="checkbox"  name="" id="user_hobbies" value="Drawing">Drawing
+                <input type="checkbox"  name="" id="user_hobbies" value="Dancing">Dancing
+                <input type="checkbox"  name="" id="user_hobbies" value="Singing">Singing</td>
+                <tr>
+                <td> <input type="checkbox">Others<input type="text" name="" id="" ></td>
+                </tr>
+            <tr>
+                <td><label for="user_qualification">Qualification</label></td>
+                <td>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Sl.no</th>
+                                <th>Examination</th>
+                                <th>Board</th>
+                                <th>Percentage</th>
+                                <th>Year of passing</th>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>Class X</td>
+                                <td><input type="text"></td>
+                                <td><input type="number"></td>
+                                <td><input type="number"></td>
+
+                            </tr>
+                            <tr>
+                                <td>02</td>
+                                <td>Class II</td>
+                                <td><input type="text"></td>
+                                <td><input type="number"></td>
+                                <td><input type="number"></td>
+                            </tr>
+                            <tr>
+                                <td>03</td>
+                                <td>Graduation</td>
+                                <td><input type="text"></td>
+                                <td><input type="number"></td>
+                                <td><input type="number"></td>
+                            </tr>
+                            <tr>
+                                <td>04</td>
+                                <td>Master</td>
+                                <td><input type="text"></td>
+                                <td><input type="number"></td>
+                                <td><input type="number"></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+
+                <td>
+                    <label for="coure_check">COURSES APPLIED FOR</label></td>
+                    <td>
+                    <input type="checkbox" name="" id="coure_check" value="BCA">BCA
+                    <input type="checkbox" name="" id="coure_check" value="B.com">B.com
+                    <input type="checkbox" name="" id="coure_check" value="Bsc">Bsc
+                    <input type="checkbox" name="" id="coure_check" value="BA">BA
+                </td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit">
+                    <input type="reset">
+                </td>
+        </tr>
+
+            </tr>
+
+
+        </tbody>
+        </form>
+    </table>
+</body>
+</html>
